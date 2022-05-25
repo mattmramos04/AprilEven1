@@ -19,7 +19,7 @@ int numDucks = 0;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
+    //public void upClick();
     public void upClick (View v)
     {
         Toast.makeText(this,"You clicked the up button", Toast.LENGTH_SHORT).show();
