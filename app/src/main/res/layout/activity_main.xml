@@ -46,5 +46,11 @@
         android:layout_weight="4"
         app:srcCompat="@drawable/eaglerubber" />
 
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="match_parent"
+        android:layout_height="143dp"
+        android:text="Next" />
+
 
 </LinearLayout>
