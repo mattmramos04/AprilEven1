@@ -19,12 +19,12 @@ int numDucks = 0;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    //public void upClick();
+
     public void upClick (View v)
     {
         Toast.makeText(this,"You clicked the up button", Toast.LENGTH_SHORT).show();
         numDucks++;
-        TextView countTextView = (TextView) findViewById(R.id.countLabelView);
+        TextView countTextView = (TextView) findViewById(R.id.countLabelView);//bruh
         countTextView.setText("Number of EagleDucks " + numDucks);
 
         // Log.i("info", "DOES THE INFO WORK???");
